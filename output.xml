@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.0 on win32)" generated="20221105 22:50:35.604" rpa="false" schemaversion="2">
+<suite id="s1" name="SearchTicket" source="C:\Users\Asus\source\repos\POC_RobotFramework\Testcases\SearchTicket.robot">
+<test id="s1-t1" name="Access homepage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.latamairlines.com/br/pt</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221105 22:50:35.848" level="INFO">Opening browser 'Chrome' to base url 'https://www.latamairlines.com/br/pt'.</msg>
+<status status="PASS" starttime="20221105 22:50:35.848" endtime="20221105 22:50:44.200"/>
+</kw>
+<status status="PASS" starttime="20221105 22:50:35.847" endtime="20221105 22:50:44.200"/>
+</test>
+<status status="PASS" starttime="20221105 22:50:35.606" endtime="20221105 22:50:44.202"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="SearchTicket">SearchTicket</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
